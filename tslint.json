@@ -1,0 +1,25 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["android/**/*.js", "ios/**/*.js", "node_modules/**/*.ts"]
+  },
+  "rules": {
+    "jsx-no-lambda": false,
+    "no-default-export": false,
+    "no-empty-interface": false,
+    "jsx-boolean-value": false,
+    "object-literal-sort-keys": false,
+    "no-debugger": {
+      "severity": "warning"
+    },
+    "no-console": {
+      "severity": "warning"
+    },
+    "member-access": false,
+    "ordered-imports": false,
+    "interface-name": false,
+    "curly": [true, "ignore-same-line"],
+    "max-classes-per-file": [true, 1],
+    "max-file-line-count": [true, 200]
+  }
+}
